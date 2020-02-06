@@ -20,5 +20,6 @@ public class Selection : MonoBehaviour
    {
       
       transform.position = transform.position + new Vector3(0, Input.GetAxis("Mouse Y"), Input.GetAxis("Mouse X"));
+      transform.localPosition = new Vector3(Mathf.Clamp(transform.localPosition.x, basepose.x - 4, basepose.x + 4), Mathf.Clamp(transform.localPosition.y, basepose.y - 4, basepose.y + 4), transform.localPosition.z);
    }
 }
