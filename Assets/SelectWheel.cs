@@ -6,6 +6,7 @@ public class SelectWheel : MonoBehaviour
 {
    private float deltatime,lasttime;
    public float rotspeed=5f;
+   public Transform mouse;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,9 +18,13 @@ public class SelectWheel : MonoBehaviour
     {
       deltatime = Time.realtimeSinceStartup - lasttime;
       lasttime = Time.realtimeSinceStartup;
-      float xmov = Input.GetAxis("Mouse X");
-      if (xmov != 0) {
-         transform.Rotate(xmov* deltatime * rotspeed, 0, 0);
-      }
+ 
+      float ymov = Input.GetAxis("Mouse Y");
+      //Vector3 offset=new Vector3 (0, ymov, xmov);
+      Debug.Log(Input.mousePosition);
+      //transform.LookAt(new Vector3(0,Input.mousePosition.y, Input.mousePosition.x));
+      transform.LookAt(mouse);
+      transform.localRotation.SetEulerRotation(transform.localRotation.eulerAngles.x,0,transform.localRotation.eulerAngles.z);
+      
     }
 }
