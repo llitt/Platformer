@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-   public GameObject selectWheel;
+   public GameObject selectWheel,interactCheck;
    public Animator anim;
    public bool grounded=true;
    public float speed = 10.0f,heighttoCenter=1.7f;
@@ -17,6 +17,8 @@ public class Player : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+      interactCheck = Instantiate(interactCheck, transform.position + anim.gameObject.transform.right * 2, Quaternion.identity);
+      interactCheck.SetActive(false);
       Physics.gravity = new Vector3(0, -20f, 0);
       player = this;
       rb = GetComponent<Rigidbody>();
@@ -27,6 +29,14 @@ public class Player : MonoBehaviour
     {
       anim.SetFloat("moving", rb.velocity.z);
       anim.SetFloat("vertvel", rb.velocity.y);
+      if (Input.GetButton("Submit"))
+      {
+         interactCheck.transform.position = transform.position + anim.gameObject.transform.right*2;
+         interactCheck.SetActive(true);
+      }
+      else if (Input.GetButtonUp("Submit")) {
+         interactCheck.SetActive(false);
+      }
       if (Input.GetButtonDown("Fire1"))
       {
          Time.timeScale = .25f;
