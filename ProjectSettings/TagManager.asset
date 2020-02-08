@@ -14,9 +14,9 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
+  - PlayerPassThrough
+  - Player
+  - Physics Object
   - 
   - 
   - 

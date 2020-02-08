@@ -12,7 +12,9 @@ public class LevelManager : MonoBehaviour
       LM = this;
       Cursor.lockState = CursorLockMode.Locked;
       Cursor.visible = false;
-    }
+      Physics.IgnoreLayerCollision(8, 9);
+      Physics.IgnoreLayerCollision(8, 10);
+   }
 
     // Update is called once per frame
     void Update()

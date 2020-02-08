@@ -16,12 +16,23 @@ public class Time_Dependent_Object : MonoBehaviour
    void Update()
    {
       foreach (GameObject obj in timeDependentObjects) {
-         if (LevelManager.LM.timestage != obj.GetComponent<TimeId>().timeId)
+         if (obj.GetComponent<TimeId>().disableonseason == false)
          {
-            obj.SetActive(false);
+            if (LevelManager.LM.timestage != obj.GetComponent<TimeId>().timeId)
+            {
+               obj.SetActive(false);
+            }
+            else
+               obj.SetActive(true);
          }
-         else
-            obj.SetActive(true);
+         else {
+            if (LevelManager.LM.timestage != obj.GetComponent<TimeId>().timeId)
+            {
+               obj.SetActive(true);
+            }
+            else
+               obj.SetActive(false);
+         }
       }
 
    }
