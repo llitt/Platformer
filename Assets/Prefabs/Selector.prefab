@@ -49,7 +49,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6572595689433759448}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -105,5 +105,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 292a93ace2a93c44c9a151e5187407b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bottomtext: {fileID: 0}
-  dialogbox: {fileID: 0}
