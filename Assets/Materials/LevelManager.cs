@@ -6,6 +6,7 @@ public class LevelManager : MonoBehaviour
 {
    public static LevelManager LM;
    public int timestage = 1;
+   public Vector3 respawnpoint;
     // Start is called before the first frame update
     void Start()
     {

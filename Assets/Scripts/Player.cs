@@ -68,4 +68,7 @@ public class Player : MonoBehaviour
          rb.velocity=new Vector3(0,rb.velocity.y, Input.GetAxis("Horizontal") * speed);
       float rbz = Mathf.Clamp(rb.velocity.z, -speed, speed);
    }
+   public void player_DIE() {
+      transform.position = LevelManager.LM.respawnpoint;
+   }
 }
