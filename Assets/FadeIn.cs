@@ -6,6 +6,7 @@ public class FadeIn : MonoBehaviour
 {
    Material filter;
    Color targetColor;
+   public float colorChangeSpeed = .05f;
    public Color[] seasonfilters;
    float maxalpha;
     // Start is called before the first frame update
@@ -19,7 +20,7 @@ public class FadeIn : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-      filter.color=Color.Lerp(filter.color, targetColor, .05f);
+      filter.color=Color.Lerp(filter.color, targetColor, colorChangeSpeed);
       targetColor = seasonfilters[LevelManager.LM.timestage];
       
    }

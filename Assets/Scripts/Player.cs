@@ -6,6 +6,7 @@ public class Player : MonoBehaviour
 {
    public GameObject selectWheel,interactCheck;
    public Animator anim;
+   public float celrationSpeed = .3f;
    public bool grounded=true;
    public float speed = 10.0f,heighttoCenter=1.7f;
    public static Player player;
@@ -27,8 +28,17 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-      anim.SetFloat("moving", rb.velocity.z);
+      anim.SetFloat("moving", Input.GetAxis("Horizontal"));
       anim.SetFloat("vertvel", rb.velocity.y);
+      if (Input.GetKeyDown(KeyCode.Escape))
+      {
+         if (Time.timeScale != 1)
+         {
+            Time.timeScale = 1;
+         }
+         else
+            Time.timeScale = 0f;
+      }
       if (Input.GetButton("Submit"))
       {
          interactCheck.transform.position = transform.position + anim.gameObject.transform.right*2;
@@ -64,8 +74,8 @@ public class Player : MonoBehaviour
             grounded = true;
          }
       }
-      float zspeed = Mathf.Lerp(rb.velocity.z, Input.GetAxis("Horizontal") * speed, .3f);
-         rb.velocity=new Vector3(0,rb.velocity.y, Input.GetAxis("Horizontal") * speed);
+      float zspeed = Mathf.Lerp(rb.velocity.z, Input.GetAxis("Horizontal") * speed, celrationSpeed);
+         rb.velocity=new Vector3(0,rb.velocity.y, zspeed);
       float rbz = Mathf.Clamp(rb.velocity.z, -speed, speed);
    }
    public void player_DIE() {
