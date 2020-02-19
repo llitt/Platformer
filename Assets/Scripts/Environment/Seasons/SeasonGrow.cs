@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class seasongrow : MonoBehaviour
+public class SeasonGrow : MonoBehaviour
 {
    Animator anim;
     // Start is called before the first frame update

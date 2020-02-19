@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class uihandler : MonoBehaviour
+public class UIHandler : MonoBehaviour
 {
-   public static uihandler uih;
+   public static UIHandler uih;
    public GameObject dialogui;
    public TextMeshProUGUI diagtext;
    // Start is called before the first frame update

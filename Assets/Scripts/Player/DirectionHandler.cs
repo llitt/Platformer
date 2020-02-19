@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class directionHandler : MonoBehaviour
+public class DirectionHandler : MonoBehaviour
 {
    Animator anim;
    bool rotated = false;

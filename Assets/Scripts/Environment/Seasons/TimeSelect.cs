@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class killPlayerOnTouch : MonoBehaviour
+public class TimeSelect : MonoBehaviour
 {
+   public int TimeId;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,10 +16,8 @@ public class killPlayerOnTouch : MonoBehaviour
     {
         
     }
-   private void OnCollisionEnter(Collision collision)
+   private void OnTriggerEnter(Collider other)
    {
-      if (collision.gameObject.tag == "Player") {
-         collision.gameObject.GetComponent<Player>().player_DIE();
-      }
+      LevelManager.LM.timestage = TimeId;
    }
 }

@@ -26,8 +26,8 @@ public class NPC : MonoBehaviour
    private void OnCollisionEnter(Collision collision)
    {
       if (collision.gameObject == objective && objectiveType == ObjectiveType.ReturntoNPC) {
-         uihandler.uih.dialogui.SetActive(true);
-         uihandler.uih.diagtext.text = completedialogue;
+         UIHandler.uih.dialogui.SetActive(true);
+         UIHandler.uih.diagtext.text = completedialogue;
          startdialogue = completedialogue;
          obstacle.SetActive(false);
       }

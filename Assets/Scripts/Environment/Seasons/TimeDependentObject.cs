@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Time_Dependent_Object : MonoBehaviour
+public class TimeDependentObject : MonoBehaviour
 {
    
    public GameObject[] timeDependentObjects;

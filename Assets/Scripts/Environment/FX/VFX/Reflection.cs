@@ -2,22 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Time_Select : MonoBehaviour
+public class Reflection : MonoBehaviour
 {
-   public int TimeId;
     // Start is called before the first frame update
     void Start()
     {
-        
-    }
+      Matrix4x4 mat = GetComponent<Camera>().projectionMatrix;
+      mat *= Matrix4x4.Scale(new Vector3(-1, 1, 1));
+      GetComponent<Camera>().projectionMatrix = mat;
+   }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
-   private void OnTriggerEnter(Collider other)
-   {
-      LevelManager.LM.timestage = TimeId;
-   }
 }

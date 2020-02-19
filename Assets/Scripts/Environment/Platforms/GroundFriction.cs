@@ -2,10 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class passthroughPlatform : MonoBehaviour
+public class GroundFriction : MonoBehaviour
 {
-   public bool groundedontouch=true;
-    // Start is called before the first frame update
+   public float slickness = .1f;
     void Start()
     {
         
@@ -14,10 +13,12 @@ public class passthroughPlatform : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-      
-   }
+        
+    }
    private void OnCollisionEnter(Collision collision)
    {
-      Player.player.grounded = groundedontouch;
+      if (collision.gameObject.tag == "Player") {
+         collision.gameObject.GetComponent<Player>().celrationSpeed = slickness;
+      }
    }
 }
