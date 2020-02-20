@@ -10,7 +10,7 @@ public class CameraMoveCheckpoint : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+      GetComponent<MeshRenderer>().enabled = false;
     }
 
     // Update is called once per frame
