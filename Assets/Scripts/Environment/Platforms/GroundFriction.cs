@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GroundFriction : MonoBehaviour
 {
-   public float slickness = .1f;
+   public float slickness = .03f;
     void Start()
     {
         
