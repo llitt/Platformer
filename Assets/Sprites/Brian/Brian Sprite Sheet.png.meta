@@ -1,0 +1,1639 @@
+fileFormatVersion: 2
+guid: c516a643602b21f44bce564738f720f8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2088190364609244784
+    second: Brian Sprite Sheet_0
+  - first:
+      213: 8083458993885055975
+    second: Brian Sprite Sheet_1
+  - first:
+      213: -4925295782877377367
+    second: Brian Sprite Sheet_2
+  - first:
+      213: -3584587093234423985
+    second: Brian Sprite Sheet_3
+  - first:
+      213: 2974191882334649501
+    second: Brian Sprite Sheet_4
+  - first:
+      213: -636933514155147393
+    second: Brian Sprite Sheet_5
+  - first:
+      213: -2719355809253364575
+    second: Brian Sprite Sheet_6
+  - first:
+      213: -5902847589692480445
+    second: Brian Sprite Sheet_7
+  - first:
+      213: -9221865506247577039
+    second: Brian Sprite Sheet_8
+  - first:
+      213: 7143818827053612080
+    second: Brian Sprite Sheet_9
+  - first:
+      213: -9163460535611431824
+    second: Brian Sprite Sheet_10
+  - first:
+      213: -627733946509668699
+    second: Brian Sprite Sheet_11
+  - first:
+      213: 8723349822258117740
+    second: Brian Sprite Sheet_12
+  - first:
+      213: 7913402439796286927
+    second: Brian Sprite Sheet_13
+  - first:
+      213: 4716443634636919623
+    second: Brian Sprite Sheet_14
+  - first:
+      213: -5434089322132121120
+    second: Brian Sprite Sheet_15
+  - first:
+      213: -8797091706409294730
+    second: Brian Sprite Sheet_16
+  - first:
+      213: -3667915609008337978
+    second: Brian Sprite Sheet_17
+  - first:
+      213: 5846554964389656638
+    second: Brian Sprite Sheet_18
+  - first:
+      213: 407381421692669183
+    second: Brian Sprite Sheet_19
+  - first:
+      213: 8830861775925086140
+    second: Brian Sprite Sheet_20
+  - first:
+      213: 2009381767742012916
+    second: Brian Sprite Sheet_21
+  - first:
+      213: -1911194049215453121
+    second: Brian Sprite Sheet_22
+  - first:
+      213: 2115787038472822984
+    second: Brian Sprite Sheet_23
+  - first:
+      213: 6360282979432565728
+    second: Brian Sprite Sheet_24
+  - first:
+      213: 3373009481239895176
+    second: Brian Sprite Sheet_25
+  - first:
+      213: 6001522518624818304
+    second: Brian Sprite Sheet_26
+  - first:
+      213: -2292008336112459228
+    second: Brian Sprite Sheet_27
+  - first:
+      213: 8669980624528314889
+    second: Brian Sprite Sheet_28
+  - first:
+      213: -628489387471519976
+    second: Brian Sprite Sheet_29
+  - first:
+      213: -3574775525087425917
+    second: Brian Sprite Sheet_30
+  - first:
+      213: 7045833007773265466
+    second: Brian Sprite Sheet_31
+  - first:
+      213: -2503168718176008201
+    second: Brian Sprite Sheet_32
+  - first:
+      213: -324212412559062743
+    second: Brian Sprite Sheet_33
+  - first:
+      213: -4200775862134223496
+    second: Brian Sprite Sheet_34
+  - first:
+      213: -2459621636506047026
+    second: Brian Sprite Sheet_35
+  - first:
+      213: 1479530987560903923
+    second: Brian Sprite Sheet_36
+  - first:
+      213: -4818585676341458987
+    second: Brian Sprite Sheet_37
+  - first:
+      213: 2676407357875354378
+    second: Brian Sprite Sheet_38
+  - first:
+      213: -147437070993986150
+    second: Brian Sprite Sheet_39
+  - first:
+      213: -72677553276883405
+    second: Brian Sprite Sheet_40
+  - first:
+      213: 3429613050074780251
+    second: Brian Sprite Sheet_41
+  - first:
+      213: 2279836276688144718
+    second: Brian Sprite Sheet_42
+  - first:
+      213: -1921006841073931584
+    second: Brian Sprite Sheet_43
+  - first:
+      213: -5752154824968623854
+    second: Brian Sprite Sheet_44
+  - first:
+      213: -5643286962761535270
+    second: Brian Sprite Sheet_45
+  - first:
+      213: -283389685227451581
+    second: Brian Sprite Sheet_46
+  - first:
+      213: 5392435033469980351
+    second: Brian Sprite Sheet_47
+  - first:
+      213: 8917134951945211476
+    second: Brian Sprite Sheet_48
+  - first:
+      213: 2411510783184468342
+    second: Brian Sprite Sheet_49
+  - first:
+      213: -457730316261343403
+    second: Brian Sprite Sheet_50
+  - first:
+      213: 698129078377197658
+    second: Brian Sprite Sheet_51
+  - first:
+      213: -8263994964584962138
+    second: Brian Sprite Sheet_52
+  - first:
+      213: 6055495260614671871
+    second: Brian Sprite Sheet_53
+  - first:
+      213: -8923634854882499537
+    second: Brian Sprite Sheet_54
+  - first:
+      213: -839983946811984852
+    second: Brian Sprite Sheet_55
+  - first:
+      213: 7224437193440945608
+    second: Brian Sprite Sheet_56
+  - first:
+      213: 3074859331807280686
+    second: Brian Sprite Sheet_57
+  - first:
+      213: -871369094406630660
+    second: Brian Sprite Sheet_58
+  - first:
+      213: 3769260543828693454
+    second: Brian Sprite Sheet_59
+  - first:
+      213: -8137667917204361401
+    second: Brian Sprite Sheet_60
+  - first:
+      213: 9021661812820598688
+    second: Brian Sprite Sheet_61
+  - first:
+      213: -600642759595486707
+    second: Brian Sprite Sheet_62
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Brian Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 9653
+        width: 427
+        height: 976
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c146e41d40792c744be81c5bc6b7e3b4
+      internalID: 2088190364609244784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brian Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 2664
+        y: 9653
+        width: 432
+        height: 976
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 984773c1daa08f547ba7544ac6bcf397
+      internalID: 8083458993885055975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brian Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 8435
+        width: 648
+        height: 828
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04fd525aba304324aad438b374204bb3
+      internalID: -4925295782877377367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brian Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 8440
+        width: 684
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 185a824bb77144a43acddae5cc3f7b80
+      internalID: -3584587093234423985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brian Sprite Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 9153
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8e37bc2dac286049b148ce1402f12cc
+      internalID: 2974191882334649501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brian Sprite Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 2011
+        y: 8498
+        width: 685
+        height: 779
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fccecb0f026e9014590eea32e0153dc0
+      internalID: -636933514155147393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brian Sprite Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 3007
+        y: 8498
+        width: 627
+        height: 791
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c5c1ff222ef4354b8d2a4be7d38a177
+      internalID: -2719355809253364575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brian Sprite Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 3766
+        y: 9142
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b080d036a9bcdba43a84b4d899c96d78
+      internalID: -5902847589692480445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brian Sprite Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 9113
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 821deff3c2a9b854aa2006e29c025fb9
+      internalID: -9221865506247577039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brian Sprite Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 2833
+        y: 9126
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9fec866244c0274eb83d7c6da877f33
+      internalID: 7143818827053612080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brian Sprite Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 7349
+        width: 717
+        height: 812
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 579274da36e3a60449a7083bd2299446
+      internalID: -9163460535611431824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brian Sprite Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 8010
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59e82ad78ed70e243adc39a8bb4a95c4
+      internalID: -627733946509668699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brian Sprite Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 7285
+        width: 690
+        height: 859
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 784d39ed0fd9cf149861564ea4fbfb6b
+      internalID: 8723349822258117740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brian Sprite Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 2127
+        y: 7359
+        width: 653
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eea318bce05878048ae7a74e3e02b721
+      internalID: 7913402439796286927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brian Sprite Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 7333
+        width: 596
+        height: 801
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff0c9c6d937ee7246aed849f04ba05e8
+      internalID: 4716443634636919623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brian Sprite Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 1953
+        y: 7992
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 408a72de1791d504a8d279d77fb35ed0
+      internalID: -5434089322132121120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brian Sprite Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 2912
+        y: 7983
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20e6c38e9491d024a987802d2df4b4f7
+      internalID: -8797091706409294730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brian Sprite Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 3813
+        y: 7983
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b93d87398d9fb4747b403e75cfcfbe01
+      internalID: -3667915609008337978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brian Sprite Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 6869
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 639f8d4541ec6fd46b6bb05f8b4644c0
+      internalID: 5846554964389656638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brian Sprite Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 6225
+        width: 626
+        height: 791
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bd677e98395aa842a77be05b09fbb55
+      internalID: 407381421692669183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brian Sprite Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 6225
+        width: 685
+        height: 778
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d348dfdd2c14264ea13db0b193f9cef
+      internalID: 8830861775925086140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brian Sprite Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 1916
+        y: 6880
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfd1d462079775a4699aea0c15f7114a
+      internalID: 2009381767742012916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brian Sprite Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 2069
+        y: 6167
+        width: 679
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6de8bb998496e9f4a8aa6e853493728d
+      internalID: -1911194049215453121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brian Sprite Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 2991
+        y: 6162
+        width: 648
+        height: 828
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 803c7d73f183fba44a6c4646ef1ab92f
+      internalID: 2115787038472822984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brian Sprite Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 6853
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c71fb81a8c8500e449bad07616abc690
+      internalID: 6360282979432565728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brian Sprite Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 2843
+        y: 6840
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61da78d307901c44199b1b7e9e12c433
+      internalID: 3373009481239895176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brian Sprite Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 5107
+        width: 595
+        height: 802
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82922b1bc23ab4348851f9be1c9a57dc
+      internalID: 6001522518624818304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brian Sprite Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 5134
+        width: 652
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edd90021da6bcf947a4caaf2c4e15c96
+      internalID: -2292008336112459228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brian Sprite Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 2061
+        y: 5060
+        width: 687
+        height: 859
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1882ab14609591b44a833a6c77f9587f
+      internalID: 8669980624528314889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brian Sprite Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 2854
+        y: 5788
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eaddeb29e3565d41bd78fe9a9bfbc8e
+      internalID: -628489387471519976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brian Sprite Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 3007
+        y: 5123
+        width: 716
+        height: 812
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23c9509b37ae0c14b9d39fb2c5e95045
+      internalID: -3574775525087425917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brian Sprite Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 5759
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13de4907121d41f48b523c129030547a
+      internalID: 7045833007773265466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brian Sprite Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 5759
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bb53d81508286849a94c7d3c2d01516
+      internalID: -2503168718176008201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brian Sprite Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 1911
+        y: 5767
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bfde11a9ab92b940ab6a717930379ec
+      internalID: -324212412559062743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brian Sprite Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 1246
+        y: 3847
+        width: 427
+        height: 949
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c047b0f54aa7ca84c904da57fa5cb788
+      internalID: -4200775862134223496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brian Sprite Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 2290
+        y: 3879
+        width: 446
+        height: 970
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bba70f2745ce0c489edea372f55a5f7
+      internalID: -2459621636506047026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brian Sprite Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 3128
+        y: 3858
+        width: 490
+        height: 970
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a96b0c2b393c59348a1b30de9cc48327
+      internalID: 1479530987560903923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brian Sprite Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 3698
+        y: 4770
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ab5a9a356c36af4a8713afb069130d6
+      internalID: -4818585676341458987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brian Sprite Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 3905
+        width: 495
+        height: 859
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d0715a70c360c64a80b75e544780c24
+      internalID: 2676407357875354378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brian Sprite Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 2807
+        y: 4754
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc861dc8897ba214cbe3f80d686958f8
+      internalID: -147437070993986150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brian Sprite Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 1774
+        y: 4686
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e72185feb5147d4bbe496f0020fa234
+      internalID: -72677553276883405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brian Sprite Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 4644
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e192ed04a959b1445ae244042a8c4b31
+      internalID: 3429613050074780251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brian Sprite Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 2671
+        width: 637
+        height: 927
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b7c9eb68d427a140a2e351885ac6e70
+      internalID: 2279836276688144718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brian Sprite Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 3478
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10e7d2d661b631f4daf019e7d997d5cb
+      internalID: -1921006841073931584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brian Sprite Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 2687
+        width: 753
+        height: 911
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f08d8017a0ff364aab12eb0cde2a956
+      internalID: -5752154824968623854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brian Sprite Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 2296
+        y: 3478
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0e8e47cb0cae9f4b81ddafc00064d6a
+      internalID: -5643286962761535270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brian Sprite Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 2954
+        y: 2703
+        width: 753
+        height: 811
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0afe8ffd7070bbf439366a676f96b614
+      internalID: -283389685227451581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brian Sprite Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 3820
+        y: 3362
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 734a390bf2256364f961ea20b6bdd7d0
+      internalID: 5392435033469980351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brian Sprite Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 1996
+        y: 2377
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b3d21c3f0e49c044a2263a4374b5cc2
+      internalID: 8917134951945211476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brian Sprite Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 2277
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9e6b512ab6e82f45882815c296cb23d
+      internalID: 2411510783184468342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brian Sprite Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 1364
+        width: 492
+        height: 969
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25ad6abcda8376243a9a169c66058aae
+      internalID: -457730316261343403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brian Sprite Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 1384
+        width: 448
+        height: 971
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 647aa6aed5692be448b28c983e86826a
+      internalID: 698129078377197658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brian Sprite Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 2195
+        y: 1353
+        width: 427
+        height: 949
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86cf7ba00d21a7141ac2b71641d7fb67
+      internalID: -8263994964584962138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brian Sprite Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 2260
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fc5d7318682aa24aa25821db1e59868
+      internalID: 6055495260614671871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brian Sprite Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 3112
+        y: 1411
+        width: 495
+        height: 859
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36d974bad65459c4aa6521c193c2addb
+      internalID: -8923634854882499537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brian Sprite Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 2080
+        y: 2191
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d94c17921d8f9fd4dbd1c6ba791e2349
+      internalID: -839983946811984852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brian Sprite Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 3007
+        y: 2150
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 675d454910e6d2a4187f6a9954b5343d
+      internalID: 7224437193440945608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brian Sprite Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 108
+        width: 754
+        height: 812
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9fd2d6b73610cf4282b67de1afc0796
+      internalID: 3074859331807280686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brian Sprite Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 1679
+        y: 889
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 918155824ee0e0848b30e46882ef0d9c
+      internalID: -871369094406630660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brian Sprite Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 1754
+        y: 98
+        width: 752
+        height: 907
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 716ec2d0e3c852f43ac9374af26e565f
+      internalID: 3769260543828693454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brian Sprite Sheet_60
+      rect:
+        serializedVersion: 2
+        x: 3075
+        y: 889
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c3e17ced2577c046bdad4393ef215e8
+      internalID: -8137667917204361401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brian Sprite Sheet_61
+      rect:
+        serializedVersion: 2
+        x: 3159
+        y: 77
+        width: 637
+        height: 928
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53aad9ce11dca4045a859492db99b6f4
+      internalID: 9021661812820598688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brian Sprite Sheet_62
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 773
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7429a16935cb9504eb5c06851d87fbc8
+      internalID: -600642759595486707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: f7fa29b48ac245f49a2718738debb2df
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
