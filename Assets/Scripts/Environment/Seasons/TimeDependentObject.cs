@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class TimeDependentObject : MonoBehaviour
 {
-   
-   public GameObject[] timeDependentObjects;
+   public static TimeDependentObject TDO;
+   public List<GameObject> timeDependentObjects;
    // Start is called before the first frame update
    void Start()
     {
-        
+      TDO = this;
     }
 
    // Update is called once per frame
