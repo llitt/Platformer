@@ -28,6 +28,7 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+      jumptimer += Time.deltaTime;
       anim.SetFloat("moving", Input.GetAxis("Horizontal"));
       anim.SetFloat("vertvel", rb.velocity.y);
       if (Input.GetKeyDown(KeyCode.Escape))
@@ -57,9 +58,10 @@ public class Player : MonoBehaviour
          Time.timeScale = 1f;
          selectWheel.SetActive(false);
       }
-      if (Input.GetAxisRaw("Vertical") > 0&& jumpcount<10) {
+      if (Input.GetAxisRaw("Vertical") > 0&& jumpcount<10&&jumptimer>.01f) {
      
          jumpcount++;
+         jumptimer = 0;
          grounded = false;
          rb.AddForce(transform.up*jumpforce, ForceMode.Impulse);
       }
