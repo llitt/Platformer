@@ -20,5 +20,9 @@ public class KillPlayerOnTouch : MonoBehaviour
       if (collision.gameObject.tag == "Player") {
          collision.gameObject.GetComponent<Player>().player_DIE();
       }
+      else if (collision.gameObject.tag == "Movable_Object")
+      {
+         collision.gameObject.GetComponent<Respawnable>().resetpos();
+      }
    }
 }

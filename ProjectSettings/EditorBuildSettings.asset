@@ -11,4 +11,73 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level0/Level0_1.unity
     guid: 02aef37975e3e1a419743e16ecadfac7
+  - enabled: 1
+    path: Assets/Scenes/Level1/Level1_0.unity
+    guid: 347544593f773ae45b7d133468391f3b
+  - enabled: 1
+    path: Assets/Scenes/Level1/Level1_1.unity
+    guid: c5937982fb3fe4946bc2c06f815cdcbd
+  - enabled: 1
+    path: Assets/Scenes/Level1/Level1_2.unity
+    guid: 2db7d6514afd5de4f90f7ba7608c9e2a
+  - enabled: 1
+    path: Assets/Scenes/Level1/Level1_3.unity
+    guid: cb3c8498f1f4c744d9ba6865ae72a4fa
+  - enabled: 1
+    path: Assets/Scenes/Level3/Level3_0.unity
+    guid: 74e5d1e70e449f74a915cdca9ecd25f2
+  - enabled: 1
+    path: Assets/Scenes/Level3/Level3_1_0.unity
+    guid: af7c817247d8d0e43a5e7c63434d5a74
+  - enabled: 1
+    path: Assets/Scenes/Level3/Level3_1_1.unity
+    guid: cafc0ce31d7c62a4fb895e9c4d975a1b
+  - enabled: 1
+    path: Assets/Scenes/Level3/Level3_1_2.unity
+    guid: 5ed3459288c731a4d80058ab39fd734e
+  - enabled: 1
+    path: Assets/Scenes/Level3/Level3_1_3.unity
+    guid: 48f26111f0685544181128c4d09659ec
+  - enabled: 1
+    path: Assets/Scenes/Level3/Level3_1_4.unity
+    guid: f808f0dcf351d6243bb0308c8261939b
+  - enabled: 1
+    path: Assets/Scenes/Level3/Level3_1_5.unity
+    guid: 5b19a54ebdd82504293e5ddccbfd8679
+  - enabled: 1
+    path: Assets/Scenes/Level3/Level3_1_6.unity
+    guid: 4891c56534fb2094080d3f6467c5a2b0
+  - enabled: 1
+    path: Assets/Scenes/Level3/Level3_1_7.unity
+    guid: 755a8bf0cc6413d4fa7fb4c1e52a1179
+  - enabled: 1
+    path: Assets/Scenes/Level3/Level3_1_8.unity
+    guid: f7f56287877f2c147a46686c8be69067
+  - enabled: 1
+    path: Assets/Scenes/Level3/Level3_2.unity
+    guid: 5b23f530ba4c3104c9cd95dca3453068
+  - enabled: 0
+    path: Assets/__DELETED_GUID_Trash/530b8e96c91095d4d9a5003007b5562c
+    guid: 530b8e96c91095d4d9a5003007b5562c
+  - enabled: 0
+    path: Assets/__DELETED_GUID_Trash/5c8603157e34f0643adff194a1b310a9
+    guid: 5c8603157e34f0643adff194a1b310a9
+  - enabled: 0
+    path: Assets/__DELETED_GUID_Trash/9feab0d657fc985419cc4bedf24ad207
+    guid: 9feab0d657fc985419cc4bedf24ad207
+  - enabled: 0
+    path: Assets/__DELETED_GUID_Trash/7478a574c3162344eaf1e714f838bb79
+    guid: 7478a574c3162344eaf1e714f838bb79
+  - enabled: 0
+    path: Assets/__DELETED_GUID_Trash/9bbb29fba0554444a9e73bde497316fb
+    guid: 9bbb29fba0554444a9e73bde497316fb
+  - enabled: 0
+    path: Assets/__DELETED_GUID_Trash/5de1eb55341bbbc4ab4d2c87cb80e10e
+    guid: 5de1eb55341bbbc4ab4d2c87cb80e10e
+  - enabled: 0
+    path: Assets/__DELETED_GUID_Trash/1467caab8a89ebb4e9a4841f1c3d327a
+    guid: 1467caab8a89ebb4e9a4841f1c3d327a
+  - enabled: 0
+    path: Assets/__DELETED_GUID_Trash/1e166bf989e335546b8e06d31314bf7b
+    guid: 1e166bf989e335546b8e06d31314bf7b
   m_configObjects: {}

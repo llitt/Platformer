@@ -5,7 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class OnCollisionChangeLevel : MonoBehaviour
 {
-    // Start is called before the first frame update
+   public int scenetoload = 1;
+
     void Start()
     {
         
@@ -19,7 +20,7 @@ public class OnCollisionChangeLevel : MonoBehaviour
    private void OnCollisionEnter(Collision collision)
    {
       if (collision.gameObject.tag == "Player") {
-         SceneManager.LoadScene(1);
+         SceneManager.LoadScene(scenetoload);
       }
    }
 }

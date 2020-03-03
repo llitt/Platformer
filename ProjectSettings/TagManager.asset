@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - NPC
+  - Movable_Object
+  - Enemy
+  - Mirror
   layers:
   - Default
   - TransparentFX

@@ -7,7 +7,7 @@ public class Player : MonoBehaviour
    public GameObject selectWheel,interactCheck;
    public Animator anim;
    public float celrationSpeed = .3f;
-   public bool grounded=true;
+   public bool grounded=true,isHiding=false;
    public float speed = 10.0f,heighttoCenter=1.7f;
    public static Player player;
    public int jumpcount = 0;
@@ -28,6 +28,9 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+      if (LevelManager.LM.timestage != 3) {
+         isHiding = false;
+      }
       jumptimer += Time.deltaTime;
       anim.SetFloat("moving", Input.GetAxis("Horizontal"));
       anim.SetFloat("vertvel", rb.velocity.y);
