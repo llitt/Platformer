@@ -277,6 +277,7 @@ MonoBehaviour:
   speed: 0.005
   mindistance: 1
   timetowait: 2
+  keepylevel: 0
   waypoints:
   - {fileID: 1089005660}
   - {fileID: 2036457662}
@@ -310,7 +311,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 5be5cc56f916f9b42b001ec22e38a18e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2410,7 +2411,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5be5cc56f916f9b42b001ec22e38a18e, type: 2}
+  - {fileID: 2100000, guid: 72ddb5f47396b0945b0e9332d4319cc8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
