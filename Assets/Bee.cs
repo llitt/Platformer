@@ -6,19 +6,24 @@ public class Bee : MonoBehaviour
 {
     public Vector3 goal;
    public float speed = .3f,mindistance=.4f,timetowait=2f;
-   private float timer = 0f;
+   private float timer = 0f,y;
+   public bool keepylevel=false;
    int goaltarget = 0;
       public Transform[] waypoints;
     void Start()
     {
       goal = waypoints[goaltarget].position;
+      y = transform.position.y;
     }
 
     // Update is called once per frame
     void Update()
     {
       
-      
+      if (keepylevel)
+      {
+         goal = new Vector3(goal.x, y, goal.z);
+      }
       
       if (Vector3.Distance(transform.position, goal)<mindistance) {
          if (timer >= timetowait)

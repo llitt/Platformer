@@ -495,6 +495,8 @@ MonoBehaviour:
   goal: {x: 0, y: 0, z: 0}
   speed: 0.003
   mindistance: 1
+  timetowait: 2
+  keepylevel: 1
   waypoints:
   - {fileID: 1713595123}
   - {fileID: 820388611}
@@ -1026,7 +1028,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 820388610}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.01, z: 0.755}
+  m_LocalPosition: {x: 0, y: 0.13000005, z: 0.755}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.020890566}
   m_Children: []
   m_Father: {fileID: 2065852761}
@@ -1784,7 +1786,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1713595122}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.00999999, z: 0.5189365}
+  m_LocalPosition: {x: 0, y: 0.13, z: 0.5189365}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.020890566}
   m_Children: []
   m_Father: {fileID: 2065852761}
@@ -1827,6 +1829,8 @@ MonoBehaviour:
   goal: {x: 0, y: 0, z: 0}
   speed: 0.04
   mindistance: 0.4
+  timetowait: 2
+  keepylevel: 0
   waypoints:
   - {fileID: 969688944}
   - {fileID: 1437591094}
@@ -2149,8 +2153,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2065852756}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 5.8, z: 128.46747}
-  m_LocalScale: {x: 5, y: 5, z: 47.8685}
+  m_LocalPosition: {x: 0, y: 5.8, z: 134.7}
+  m_LocalScale: {x: 5, y: 5, z: 27.537998}
   m_Children:
   - {fileID: 1713595123}
   - {fileID: 820388611}
@@ -56856,7 +56860,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f621ef775070ee448f386f898a00437, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timestage: 2
+  timestage: 0
   respawnpoint: {x: 0, y: 3.2, z: -17}
 --- !u!1 &7021299201398902125
 GameObject:

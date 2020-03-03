@@ -26,4 +26,15 @@ public class BeeDangerZone : MonoBehaviour
             bee.goal = other.gameObject.transform.position;
       }
    }
+   private void OnTriggerExit(Collider other)
+   {
+      if (other.tag == "Player" || (other.tag == "Enemy" && ignoreenemylayer == false))
+      {
+         if (other.tag == "Player" && other.GetComponent<Player>().isHiding == true)
+         {
+         }
+         else
+            bee.goal = transform.position;
+      }
+   }
 }

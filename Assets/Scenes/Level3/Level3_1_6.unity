@@ -74807,7 +74807,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f621ef775070ee448f386f898a00437, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timestage: 2
+  timestage: 0
   respawnpoint: {x: 0, y: 3.2, z: -17}
 --- !u!1 &1586761569266142636
 GameObject:
