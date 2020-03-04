@@ -68,7 +68,7 @@ public class Player : MonoBehaviour
          grounded = false;
          rb.AddForce(transform.up*jumpforce, ForceMode.Impulse);
       }
-      Debug.Log(Input.GetAxisRaw("Vertical"));
+      //Debug.Log(Input.GetAxisRaw("Vertical"));
       if (grounded == true && Input.GetAxisRaw("Vertical")<=0) {
          jumpcount = 0;
       }

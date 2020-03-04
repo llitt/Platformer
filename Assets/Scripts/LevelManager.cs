@@ -11,8 +11,6 @@ public class LevelManager : MonoBehaviour
     void Start()
     {
       LM = this;
-      Cursor.lockState = CursorLockMode.Locked;
-      Cursor.visible = false;
       Physics.IgnoreLayerCollision(8, 9);
       Physics.IgnoreLayerCollision(8, 10);
    }

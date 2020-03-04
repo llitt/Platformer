@@ -44,4 +44,10 @@ public class GameManager : MonoBehaviour
         storyScreen.gameObject.SetActive(false);
         excludeBackground.gameObject.SetActive(true);
     }
+
+    public void disableCursor()
+    {
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+    }
 }
