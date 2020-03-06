@@ -37381,7 +37381,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6226264999924296219}
   m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 19.91, y: 4.9600005, z: -0.7999954}
+  m_LocalPosition: {x: 19.91, y: 2.4, z: -0.7999954}
   m_LocalScale: {x: 1, y: 0.4, z: 1}
   m_Children:
   - {fileID: 6226264999347201090}
@@ -47513,7 +47513,7 @@ SpriteRenderer:
   m_Size: {x: 0.71, y: 0.67}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!23 &6226264999105998856
@@ -47635,10 +47635,7 @@ MonoBehaviour:
   celrationSpeed: 0.3
   grounded: 1
   isHiding: 0
-  speed: 8.5
-  heighttoCenter: 1.3
-  jumpcount: 0
-  jumpforce: 1.7
+  jumptimer: 0
 --- !u!136 &6226264999105998863
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -76989,15 +76986,15 @@ Camera:
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0.25
+    x: 0
     y: 0
-    width: 0.44
+    width: 1
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 16.58
+  orthographic size: 16.43
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -77021,7 +77018,26 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6226264999924296219}
   m_Enabled: 1
---- !u!114 &6226264999924296218
+--- !u!1 &6226264999924296219
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6226264998816553656}
+  - component: {fileID: 6226264999924296212}
+  - component: {fileID: 6226264999924296213}
+  - component: {fileID: 6226264999924296220}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &6226264999924296220
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -77034,22 +77050,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneheight: 40
---- !u!1 &6226264999924296219
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6226264998816553656}
-  - component: {fileID: 6226264999924296212}
-  - component: {fileID: 6226264999924296213}
-  - component: {fileID: 6226264999924296218}
-  m_Layer: 0
-  m_Name: Main Camera
-  m_TagString: MainCamera
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1

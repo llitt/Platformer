@@ -78,12 +78,7 @@ public class Player : MonoBehaviour
       else if (grounded == true) {
          jumptimer = 0;
       }
-      RaycastHit rh;
-      Physics.Raycast(transform.position, Vector3.down, out rh);
       anim.SetFloat("grounddist", grounded?0:2);
-      if (rh.distance > 2) {
-         grounded = false;
-      }
       float zspeed = Mathf.Lerp(rb.velocity.z, Input.GetAxis("Horizontal") * speed, celrationSpeed);
          rb.velocity=new Vector3(0,yspeed, zspeed);
       float rbz = Mathf.Clamp(rb.velocity.z, -speed, speed);

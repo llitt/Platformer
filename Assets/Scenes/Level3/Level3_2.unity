@@ -1608,8 +1608,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1011750411}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 19.36, z: 52.67}
-  m_LocalScale: {x: 1, y: 18.84597, z: 23.815418}
+  m_LocalPosition: {x: 0, y: 26.43, z: 52.67}
+  m_LocalScale: {x: 1, y: 32.980446, z: 23.815418}
   m_Children: []
   m_Father: {fileID: 7021299200182887256}
   m_RootOrder: 9
@@ -1714,8 +1714,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1112148128}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 27.33, z: -15.19}
-  m_LocalScale: {x: 1, y: 40.410564, z: 34.618973}
+  m_LocalPosition: {x: 0, y: 47.67, z: -32.44}
+  m_LocalScale: {x: 1, y: 81.225235, z: 69.237946}
   m_Children: []
   m_Father: {fileID: 7021299200182887256}
   m_RootOrder: 7
@@ -3187,8 +3187,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1805388144}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 38.61, z: 32.92}
-  m_LocalScale: {x: 1, y: 17.930168, z: 64.41705}
+  m_LocalPosition: {x: -0, y: 60.13, z: 32.92}
+  m_LocalScale: {x: 1, y: 60.962574, z: 64.41705}
   m_Children: []
   m_Father: {fileID: 7021299200182887256}
   m_RootOrder: 8
@@ -4181,8 +4181,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7021299200234885452}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: -13.35, z: 15.94}
-  m_LocalScale: {x: 1, y: 29.9, z: 97.08691}
+  m_LocalPosition: {x: 0, y: -13.35, z: -19.62}
+  m_LocalScale: {x: 1, y: 29.9, z: 167.96034}
   m_Children: []
   m_Father: {fileID: 7021299200182887256}
   m_RootOrder: 0
@@ -48294,15 +48294,15 @@ Camera:
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0.25
+    x: 0
     y: 0
-    width: 0.44
+    width: 1
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 16.58
+  orthographic size: 16.43
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -53353,7 +53353,7 @@ SpriteRenderer:
   m_Size: {x: 0.71, y: 0.67}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &7021299201531872984
@@ -53427,10 +53427,7 @@ MonoBehaviour:
   celrationSpeed: 0.3
   grounded: 1
   isHiding: 0
-  speed: 8.5
-  heighttoCenter: 1.3
-  jumpcount: 0
-  jumpforce: 1.7
+  jumptimer: 0
 --- !u!54 &7021299201531872988
 Rigidbody:
   m_ObjectHideFlags: 0

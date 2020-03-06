@@ -2255,8 +2255,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1339136255}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: -16.14, z: 152.718}
-  m_LocalScale: {x: 1, y: 24.668451, z: 90.39678}
+  m_LocalPosition: {x: -0, y: -16.14, z: 228.67}
+  m_LocalScale: {x: 1, y: 24.668451, z: 242.26338}
   m_Children: []
   m_Father: {fileID: 2168179513852767410}
   m_RootOrder: 19
@@ -3325,15 +3325,15 @@ Camera:
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0.25
+    x: 0
     y: 0
-    width: 0.44
+    width: 1
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 16.58
+  orthographic size: 16.43
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -28403,7 +28403,7 @@ SpriteRenderer:
   m_Size: {x: 0.71, y: 0.67}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!114 &2168179513589169858
@@ -33335,10 +33335,7 @@ MonoBehaviour:
   celrationSpeed: 0.3
   grounded: 1
   isHiding: 0
-  speed: 8.5
-  heighttoCenter: 1.3
-  jumpcount: 0
-  jumpforce: 1.7
+  jumptimer: 0
 --- !u!1 &2168179513606867250
 GameObject:
   m_ObjectHideFlags: 0
@@ -43365,8 +43362,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2168179513901948582}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -13.35, z: -6.71}
-  m_LocalScale: {x: 1, y: 29.9, z: 51.47561}
+  m_LocalPosition: {x: 0, y: -13.35, z: -112.16}
+  m_LocalScale: {x: 1, y: 29.9, z: 262.5256}
   m_Children: []
   m_Father: {fileID: 2168179513852767410}
   m_RootOrder: 0
@@ -58112,7 +58109,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2168179514413097493
 Transform:
   m_ObjectHideFlags: 0
