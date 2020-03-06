@@ -10,10 +10,9 @@ public class Player : MonoBehaviour
    public bool grounded=true,isHiding=false;
    public float speed = 10.0f,heighttoCenter=1.7f;
    public static Player player;
-   public int jumpcount = 0;
-   public float jumpforce = 10;
+   public float jumpspeed = 8.5f;
    private float height; 
-   private float jumptimer;
+   public float jumptimer;
    private Rigidbody rb;
     // Start is called before the first frame update
     void Start()
@@ -61,27 +60,37 @@ public class Player : MonoBehaviour
          Time.timeScale = 1f;
          selectWheel.SetActive(false);
       }
-      if (Input.GetAxisRaw("Vertical") > 0&& jumpcount<10&&jumptimer>.01f) {
-     
-         jumpcount++;
-         jumptimer = 0;
+      float yspeed;
+      if (Input.GetAxisRaw("Vertical") > 0 && jumptimer < 1f)
+      {
          grounded = false;
-         rb.AddForce(transform.up*jumpforce, ForceMode.Impulse);
+         yspeed = jumpspeed;
       }
-      //Debug.Log(Input.GetAxisRaw("Vertical"));
-      if (grounded == true && Input.GetAxisRaw("Vertical")<=0) {
-         jumpcount = 0;
+      else {
+         yspeed = rb.velocity.y;
       }
-      RaycastHit Rhit;
-      if (Physics.Raycast(transform.position, Vector3.down, out Rhit)) {
-         anim.SetFloat("grounddist", Rhit.distance);
-         if (Rhit.distance < heighttoCenter) {
+      if (grounded == false)
+      {
+         celrationSpeed = .3f;
+         jumptimer += Time.deltaTime;
+      }
+      else if (grounded == true && Input.GetAxisRaw("Vertical")<=0) {
+         jumptimer = 0;
+      }    
+      float zspeed = Mathf.Lerp(rb.velocity.z, Input.GetAxis("Horizontal") * speed, celrationSpeed);
+         rb.velocity=new Vector3(0,yspeed, zspeed);
+      float rbz = Mathf.Clamp(rb.velocity.z, -speed, speed);
+   }
+   private void OnCollisionEnter(Collision collision)
+   {
+         ContactPoint[] contacts = collision.contacts;
+      foreach (ContactPoint cp in contacts)
+      {
+         if (Vector3.Angle(transform.up, cp.normal) < 60)
+         {
             grounded = true;
          }
       }
-      float zspeed = Mathf.Lerp(rb.velocity.z, Input.GetAxis("Horizontal") * speed, celrationSpeed);
-         rb.velocity=new Vector3(0,rb.velocity.y, zspeed);
-      float rbz = Mathf.Clamp(rb.velocity.z, -speed, speed);
    }
    public void player_DIE() {
       transform.position = LevelManager.LM.respawnpoint;

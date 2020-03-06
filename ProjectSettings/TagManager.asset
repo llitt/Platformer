@@ -8,6 +8,7 @@ TagManager:
   - Movable_Object
   - Enemy
   - Mirror
+  - Ground
   layers:
   - Default
   - TransparentFX
