@@ -10,7 +10,7 @@ public class Player : MonoBehaviour
    public bool grounded=true,isHiding=false;
    private float speed = 10.0f,heighttoCenter=1.7f;
    public static Player player;
-   private float jumpspeed = 10f;
+   private float jumpspeed = 12f;
    private float height; 
    public float jumptimer;
    private Rigidbody rb;

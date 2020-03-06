@@ -15,7 +15,7 @@ public class GroundFriction : MonoBehaviour
     {
         
     }
-   private void OnCollisionEnter(Collision collision)
+   private void OnCollisionStay(Collision collision)
    {
       if (collision.gameObject.tag == "Player") {
          collision.gameObject.GetComponent<Player>().celrationSpeed = slickness;
