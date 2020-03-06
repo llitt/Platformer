@@ -8,9 +8,9 @@ public class Player : MonoBehaviour
    public Animator anim;
    public float celrationSpeed = .3f;
    public bool grounded=true,isHiding=false;
-   public float speed = 10.0f,heighttoCenter=1.7f;
+   private float speed = 10.0f,heighttoCenter=1.7f;
    public static Player player;
-   public float jumpspeed = 8.5f;
+   private float jumpspeed = 10f;
    private float height; 
    public float jumptimer;
    private Rigidbody rb;
@@ -31,6 +31,7 @@ public class Player : MonoBehaviour
          isHiding = false;
       }
       jumptimer += Time.deltaTime;
+
       anim.SetFloat("moving", Input.GetAxis("Horizontal"));
       anim.SetFloat("vertvel", rb.velocity.y);
       if (Input.GetKeyDown(KeyCode.Escape))
@@ -61,7 +62,7 @@ public class Player : MonoBehaviour
          selectWheel.SetActive(false);
       }
       float yspeed;
-      if (Input.GetAxisRaw("Vertical") > 0 && jumptimer < 1f)
+      if (Input.GetAxisRaw("Vertical") > 0 && jumptimer < .5f)
       {
          grounded = false;
          yspeed = jumpspeed;
@@ -74,22 +75,29 @@ public class Player : MonoBehaviour
          celrationSpeed = .3f;
          jumptimer += Time.deltaTime;
       }
-      else if (grounded == true && Input.GetAxisRaw("Vertical")<=0) {
+      else if (grounded == true) {
          jumptimer = 0;
-      }    
+      }
+      RaycastHit rh;
+      Physics.Raycast(transform.position, Vector3.down, out rh);
+      anim.SetFloat("grounddist", grounded?0:2);
+      if (rh.distance > 2) {
+         grounded = false;
+      }
       float zspeed = Mathf.Lerp(rb.velocity.z, Input.GetAxis("Horizontal") * speed, celrationSpeed);
          rb.velocity=new Vector3(0,yspeed, zspeed);
       float rbz = Mathf.Clamp(rb.velocity.z, -speed, speed);
    }
-   private void OnCollisionEnter(Collision collision)
+   private void OnCollisionStay(Collision collision)
    {
          ContactPoint[] contacts = collision.contacts;
       foreach (ContactPoint cp in contacts)
       {
-         if (Vector3.Angle(transform.up, cp.normal) < 60)
+         if (Vector3.Angle(transform.up, cp.normal) < 75)
          {
             grounded = true;
          }
+         Debug.Log(Vector3.Angle(transform.up, cp.normal));
       }
    }
    public void player_DIE() {
