@@ -1,0 +1,511 @@
+fileFormatVersion: 2
+guid: eaaf921fc7eb6df4cb42ece3582248ae
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 967913088513954909
+    second: Cult Minion Sprite Sheet_0
+  - first:
+      213: -7848324365677288619
+    second: Cult Minion Sprite Sheet_1
+  - first:
+      213: 127270063332763408
+    second: Cult Minion Sprite Sheet_2
+  - first:
+      213: -5252704078811558754
+    second: Cult Minion Sprite Sheet_3
+  - first:
+      213: 1501940312850145998
+    second: Cult Minion Sprite Sheet_4
+  - first:
+      213: -8535155151162805008
+    second: Cult Minion Sprite Sheet_5
+  - first:
+      213: 661196383555301801
+    second: Cult Minion Sprite Sheet_6
+  - first:
+      213: -2841610743530697995
+    second: Cult Minion Sprite Sheet_7
+  - first:
+      213: -3916626030261870249
+    second: Cult Minion Sprite Sheet_8
+  - first:
+      213: -3244365235924571618
+    second: Cult Minion Sprite Sheet_9
+  - first:
+      213: 8347568443386747749
+    second: Cult Minion Sprite Sheet_10
+  - first:
+      213: -7399533974814061656
+    second: Cult Minion Sprite Sheet_11
+  - first:
+      213: 2099171318141853664
+    second: Cult Minion Sprite Sheet_12
+  - first:
+      213: 7979354195587202053
+    second: Cult Minion Sprite Sheet_13
+  - first:
+      213: -3056890960180225252
+    second: Cult Minion Sprite Sheet_14
+  - first:
+      213: 5863153929355413617
+    second: Cult Minion Sprite Sheet_15
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Cult Minion Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 2166
+        width: 501
+        height: 1119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a247626c3666b9449b61b102af873cb
+      internalID: 967913088513954909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cult Minion Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 2162
+        width: 550
+        height: 1078
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b275afc99140d44e8fa7a75e5a30fb5
+      internalID: -7848324365677288619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cult Minion Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 2162
+        width: 592
+        height: 1013
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2205caf39a87d294cba6866d3004ec82
+      internalID: 127270063332763408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cult Minion Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 2548
+        y: 2166
+        width: 643
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 259bc6d261cb25c448b0fb03809438f6
+      internalID: -5252704078811558754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cult Minion Sprite Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 3408
+        y: 2169
+        width: 717
+        height: 864
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac942a888f38c0c49ad7d62e16b52c1f
+      internalID: 1501940312850145998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cult Minion Sprite Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 4387
+        y: 2169
+        width: 641
+        height: 941
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10258deb8051fe0499accf85a73011a7
+      internalID: -8535155151162805008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cult Minion Sprite Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 5241
+        y: 2130
+        width: 592
+        height: 1015
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04657c52c87ba4d49a1be3f2deccad78
+      internalID: 661196383555301801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cult Minion Sprite Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 6008
+        y: 2130
+        width: 546
+        height: 1077
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca88424e1ef380546bf7e9e94f93bded
+      internalID: -2841610743530697995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cult Minion Sprite Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 205
+        width: 549
+        height: 1078
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 977b6f32a7e2f834d869e06e52e9029f
+      internalID: -3916626030261870249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cult Minion Sprite Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 205
+        width: 594
+        height: 1013
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a1d5de5f1b4c204fb1c7956a3ce3e3e
+      internalID: -3244365235924571618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cult Minion Sprite Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1625
+        y: 244
+        width: 641
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50b668e0fbe5c4441b174f679e21533c
+      internalID: 8347568443386747749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cult Minion Sprite Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 2531
+        y: 241
+        width: 715
+        height: 867
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be4ab5e16649f9c498f3722cb4a9cc8b
+      internalID: -7399533974814061656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cult Minion Sprite Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 3463
+        y: 241
+        width: 643
+        height: 941
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2587d49ab6b200b42b57178df665cfe9
+      internalID: 2099171318141853664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cult Minion Sprite Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 4401
+        y: 235
+        width: 594
+        height: 1015
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19ce403dbfb702841b4b621a727616f3
+      internalID: 7979354195587202053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cult Minion Sprite Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 5242
+        y: 235
+        width: 549
+        height: 1079
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 969c706b480e62b4e8e99a9fd42313e7
+      internalID: -3056890960180225252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cult Minion Sprite Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 6053
+        y: 241
+        width: 501
+        height: 1119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f8100a960bcf404782e5257264b0ce1
+      internalID: 5863153929355413617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: cafcf1c4f827ccd429d6e782083859f2
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
