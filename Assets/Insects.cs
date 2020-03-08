@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class InsectsMovements : MonoBehaviour
+public class Insects : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -14,5 +14,11 @@ public class InsectsMovements : MonoBehaviour
     void Update()
     {
         
+    }
+
+    void OnCollisionEnter(Collision collision) {
+        if(collision.gameObject.tag == "Player"){
+            collision.collider.transform.SetParent(transform);
+        }
     }
 }

@@ -98,4 +98,16 @@ public class Player : MonoBehaviour
    public void player_DIE() {
       transform.position = LevelManager.LM.respawnpoint;
    }
+
+   public void OnTriggerStay(Collider other){
+             if(other.gameObject.tag == "Insects"){
+             other.transform.SetParent(transform);
+         }
+     }
+ 
+   public void OnTriggerExit(Collider other){
+     if(other.gameObject.tag == "Insects"){
+             transform.parent = null;
+         }
+     }    
 }
