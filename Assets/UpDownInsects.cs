@@ -5,8 +5,10 @@ using UnityEngine;
 public class UpDownInsects : MonoBehaviour
 {
    Rigidbody rb;
+   public GameObject player;
    Vector3 pos;
    public float height, speed;
+   bool riding = false;
    int up = 1;
     // Start is called before the first frame update
     void Start()
@@ -26,5 +28,27 @@ public class UpDownInsects : MonoBehaviour
       {
          up = 1;
       }
+
+      if(riding){
+                player.transform.position += new Vector3(0, 0, 0);    
+            }
    }
+
+   void OnTriggerEnter(Collider hit)
+    {
+        if(hit.gameObject.tag == "Player")
+        {
+            print("Player is riding the platform!");
+            riding = true;
+        }
+    }
+   
+    void OnTriggerExit(Collider hit)
+    {
+        if(hit.gameObject.tag == "Player")
+        {
+            print("Player is off the paltform =/");
+            riding = false;
+        }
+    }
 }
