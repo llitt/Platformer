@@ -6,6 +6,7 @@ public class UpDownInsects : MonoBehaviour
 {
    Rigidbody rb;
    public GameObject player;
+   private GameObject mustHave;
    Vector3 pos;
    public float height, speed;
    bool riding = false;
@@ -15,6 +16,7 @@ public class UpDownInsects : MonoBehaviour
     {
       rb = GetComponent<Rigidbody>();
       pos = rb.position;
+      mustHave = GameObject.Find("MUSTPUTINEVERYSCENE");
     }
 
     // Update is called once per frame
@@ -51,4 +53,17 @@ public class UpDownInsects : MonoBehaviour
             riding = false;
         }
     }
+
+
+   //  void OnCollisionEnter(Collision collision) {
+   //      if(collision.gameObject.tag == "Player"){
+   //          collision.collider.transform.SetParent(transform);
+   //      }
+   //  }
+
+   //  void OnCollisionExit(Collision collision) {
+   //     if(collision.gameObject.tag == "Player"){
+   //        collision.collider.transform.SetParent(mustHave.transform);
+   //     }
+   //  }
 }

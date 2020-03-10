@@ -7,6 +7,8 @@ public class leftRightInsects : MonoBehaviour
    Rigidbody rb;
    Vector3 pos;
    public GameObject player;
+
+   private GameObject mustHave;
    bool riding;
    public float width, speed;
    int right = 1;
@@ -15,6 +17,7 @@ public class leftRightInsects : MonoBehaviour
     {
       rb = GetComponent<Rigidbody>();
       pos = rb.position;
+      mustHave = GameObject.Find("MUSTPUTINEVERYSCENE");
     }
 
     // Update is called once per frame
@@ -51,6 +54,18 @@ public class leftRightInsects : MonoBehaviour
             print("Player is off the paltform =/");
             riding = false;
         }
+    }
+
+    void OnCollisionEnter(Collision collision) {
+        if(collision.gameObject.tag == "Player"){
+            collision.collider.transform.SetParent(transform);
+        }
+    }
+
+    void OnCollisionExit(Collision collision) {
+       if(collision.gameObject.tag == "Player"){
+          collision.collider.transform.SetParent(mustHave.transform);
+       }
     }
 
 }
