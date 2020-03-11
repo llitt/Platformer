@@ -7,7 +7,7 @@ public class Player : MonoBehaviour
    public GameObject selectWheel,interactCheck;
    public Animator anim;
    public float celrationSpeed = .3f;
-   public bool grounded=true,isHiding=false,entryexitmode=true;
+   public bool grounded=true,isHiding=false,entryexitmode=false;
    private float speed = 10.0f,heighttoCenter=1.7f;
    public static Player player;
    private float jumpspeed = 12f;
