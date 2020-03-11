@@ -19,12 +19,23 @@ public class EntryPoint : MonoBehaviour
       if (countdown == true) {
          timer += Time.deltaTime;
          if (timer > timebeforecontrol)
+         {
             player.GetComponent<Player>().entryexitmode = false;
+            countdown = false;
+         }
       }
     }
    private void OnTriggerEnter(Collider other)
    {
-      cam.transform.parent = player.transform;
-      countdown = true;
+      if (player.GetComponent<Player>().entryexitmode == true)
+      {
+         cam.transform.parent = player.transform;
+         countdown = true;
+      }
+      else {
+         
+         player.GetComponent<Player>().entryexitmode = true;
+         cam.transform.parent = null;
+      }
    }
 }
