@@ -22383,7 +22383,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1464056397}
-  - component: {fileID: 1464056398}
+  - component: {fileID: 1464056399}
   m_Layer: 0
   m_Name: WinterFloor
   m_TagString: Untagged
@@ -22431,7 +22431,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1464056398
+--- !u!114 &1464056399
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -22440,11 +22440,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 1464056396}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 467f972ccea21ae4894419c37e7e7ef6, type: 3}
+  m_Script: {fileID: 11500000, guid: 0427067a0165ab145bd649fd8f0b6f98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeId: 2
-  disableonseason: 0
+  colors:
+  - {r: 0, g: 1, b: 0.10499692, a: 1}
+  - {r: 0.5849056, g: 0.34276405, b: 0, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 0.61547077, b: 0, a: 1}
+  lastseason: 0
 --- !u!1 &1470864169
 GameObject:
   m_ObjectHideFlags: 0
