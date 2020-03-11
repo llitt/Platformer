@@ -6,7 +6,8 @@ public class NPC : MonoBehaviour
 {
    public string startdialogue="Text Goes Here";
    public string completedialogue = "Text Goes Here";
-   public ObjectiveType objectiveType; 
+   public ObjectiveType objectiveType;
+   public bool completed = false;
    public GameObject objective;
    public GameObject obstacle;
    public enum ObjectiveType
@@ -19,8 +20,13 @@ public class NPC : MonoBehaviour
    // Update is called once per frame
    void Update()
     {
-      if (objective.activeSelf) {
-
+      if (objectiveType == ObjectiveType.Collect) {
+         if (completed==false&&objective.gameObject.GetComponent<Collectable>().collected==true) {
+            UIHandler.uih.diagtext.text = completedialogue;
+            startdialogue = completedialogue;
+            completed = true;
+            obstacle.SetActive(false);
+         }
       }
     }
    private void OnCollisionEnter(Collision collision)

@@ -15,7 +15,7 @@ public class DialogBox : MonoBehaviour
     void Update()
     {
       timer += Time.fixedUnscaledDeltaTime;
-      if (timer>3)
+      if (timer>6)
          gameObject.SetActive(false);
     }
 }
