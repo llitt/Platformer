@@ -5,7 +5,6 @@ using UnityEngine;
 public class Footsteps : MonoBehaviour
 {
     public Player chara;
-    public TimeId id;
     public AudioClip[] snowClips;
     public AudioClip[] sandClips;
     public AudioClip[] grassClips;
