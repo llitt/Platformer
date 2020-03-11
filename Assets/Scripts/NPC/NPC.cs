@@ -8,8 +8,9 @@ public class NPC : MonoBehaviour
    public string completedialogue = "Text Goes Here";
    public ObjectiveType objectiveType;
    public bool completed = false;
+   public int seasongoal;
    public GameObject objective;
-   public GameObject obstacle;
+   public GameObject obstacle,enableobj;
    public enum ObjectiveType
    {
       ReturntoNPC,
@@ -28,14 +29,30 @@ public class NPC : MonoBehaviour
             obstacle.SetActive(false);
          }
       }
-    }
+      if (objectiveType == ObjectiveType.ChangeSeason)
+      {
+         if (LevelManager.LM.timestage==seasongoal)
+         {
+            UIHandler.uih.dialogui.SetActive(true);
+            UIHandler.uih.diagtext.text = completedialogue;
+            startdialogue = completedialogue;
+            if (enableobj != null)
+               enableobj.SetActive(true);
+            if (obstacle != null)
+               obstacle.SetActive(false);
+         }
+      }
+   }
    private void OnCollisionEnter(Collision collision)
    {
       if (collision.gameObject == objective && objectiveType == ObjectiveType.ReturntoNPC) {
          UIHandler.uih.dialogui.SetActive(true);
          UIHandler.uih.diagtext.text = completedialogue;
          startdialogue = completedialogue;
-         obstacle.SetActive(false);
+         if (enableobj != null)
+            enableobj.SetActive(true);
+         if (obstacle!=null)
+            obstacle.SetActive(false);
       }
    }
 }
