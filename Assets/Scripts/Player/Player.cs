@@ -106,7 +106,11 @@ public class Player : MonoBehaviour
          Debug.Log(Vector3.Angle(transform.up, cp.normal));
       }
    }
-   public void player_DIE() {
+    private void OnCollisionExit(Collision collision)
+    {
+        grounded = false;
+    }
+    public void player_DIE() {
       transform.position = LevelManager.LM.respawnpoint;
    }
 }
