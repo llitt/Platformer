@@ -23,7 +23,6 @@ public class CameraMoveCheckpoint : MonoBehaviour
       if (other.tag == "Player")
       {
          LevelManager.LM.respawnpoint = transform.position+(Vector3.down*heighttoFloor);
-         cam.transform.position += cammove;
          parent.position += offsetwhentriggered;
       }
    }

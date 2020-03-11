@@ -14,6 +14,7 @@ public class GameManager : MonoBehaviour
     {
         GetComponent<AudioSource>().Play();
         snow.GetComponent<AudioSource>().Stop();
+      Time.timeScale = .001f;
     }
 
     // Update is called once per frame
@@ -26,8 +27,8 @@ public class GameManager : MonoBehaviour
         titleScreen.gameObject.SetActive(false);
         GetComponent<AudioSource>().Stop();
         snow.GetComponent<AudioSource>().Play();
-
-    }
+        Time.timeScale = 1f;
+   }
 
     public void openStory() {
         storyScreen.gameObject.SetActive(true);
