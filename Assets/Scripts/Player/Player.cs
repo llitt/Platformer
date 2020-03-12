@@ -9,6 +9,7 @@ public class Player : MonoBehaviour
    public float celrationSpeed = .3f;
    public bool grounded=true,isHiding=false,entryexitmode=false;
    private float speed = 10.0f,heighttoCenter=1.7f;
+   public int entraccedirection = 1;
    public static Player player;
    private float jumpspeed = 12f;
    private float height; 
@@ -36,7 +37,7 @@ public class Player : MonoBehaviour
       float horiz = Input.GetAxis("Horizontal");
       float vert = Input.GetAxisRaw("Vertical");
       if (entryexitmode == true) {
-         horiz = 1;
+         horiz = entraccedirection;
          vert = 0;
       }
       anim.SetFloat("moving", horiz);

@@ -1,0 +1,355 @@
+fileFormatVersion: 2
+guid: d8b6b7f7154c7dd47ac7626cae700203
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8890958763967440300
+    second: Carnivorous plant_0
+  - first:
+      213: 3702880199256026616
+    second: Carnivorous plant_1
+  - first:
+      213: -8464961842746886837
+    second: Carnivorous plant_2
+  - first:
+      213: -2861682469696057864
+    second: Carnivorous plant_3
+  - first:
+      213: 4087648921635513085
+    second: Carnivorous plant_4
+  - first:
+      213: -6467504944299435610
+    second: Carnivorous plant_5
+  - first:
+      213: -6385322860534276644
+    second: Carnivorous plant_6
+  - first:
+      213: 2722099247766233651
+    second: Carnivorous plant_7
+  - first:
+      213: -148448714315794927
+    second: Carnivorous plant_8
+  - first:
+      213: -5799731437051764903
+    second: Carnivorous plant_9
+  - first:
+      213: -445252304847165045
+    second: Carnivorous plant_10
+  - first:
+      213: -2040008119182946474
+    second: Carnivorous plant_11
+  - first:
+      213: -2631388407047799921
+    second: Carnivorous plant_12
+  - first:
+      213: 852302611340928071
+    second: Carnivorous plant_13
+  - first:
+      213: -3069272161763893819
+    second: Carnivorous plant_14
+  - first:
+      213: 5928232861329015198
+    second: Carnivorous plant_15
+  - first:
+      213: 3532614520776969682
+    second: Carnivorous plant_16
+  - first:
+      213: -6976541651997533800
+    second: Carnivorous plant_17
+  - first:
+      213: 3548337543031546820
+    second: Carnivorous plant_18
+  - first:
+      213: -3206893811494193157
+    second: Carnivorous plant_19
+  - first:
+      213: -1578432023283008520
+    second: Carnivorous plant_20
+  - first:
+      213: 7502357397301343613
+    second: Carnivorous plant_21
+  - first:
+      213: -7870941596644915274
+    second: Carnivorous plant_22
+  - first:
+      213: -2057133177767483159
+    second: Carnivorous plant_23
+  - first:
+      213: -5429591945255082638
+    second: Carnivorous plant_24
+  - first:
+      213: -9094667934803083949
+    second: Carnivorous plant_25
+  - first:
+      213: -5229391899982978669
+    second: Carnivorous plant_26
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Carnivorous plant_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 13704
+        width: 2000
+        height: 2137
+      alignment: 9
+      pivot: {x: 0.45900065, y: 0.7916198}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34864eb23ddba074faf518fc21a0417e
+      internalID: -8890958763967440300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carnivorous plant_1
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 13704
+        width: 2000
+        height: 2127
+      alignment: 9
+      pivot: {x: 0.40160182, y: 0.8161216}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64922670ea708e241b3bf6501fffe0f5
+      internalID: 3702880199256026616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carnivorous plant_2
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 13704
+        width: 2000
+        height: 2116
+      alignment: 9
+      pivot: {x: 0.3934021, y: 0.81776494}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bd316b7cdaf96a46b81e4efd4a7b409
+      internalID: -8464961842746886837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carnivorous plant_3
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 13752
+        width: 2000
+        height: 1975
+      alignment: 9
+      pivot: {x: 0.3852019, y: 0.84875447}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ae3773b4b3b0804f85cbfaf0f590412
+      internalID: -2861682469696057864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carnivorous plant_4
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 11137
+        width: 2000
+        height: 2500
+      alignment: 9
+      pivot: {x: 0.3852018, y: 0.8739145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c37bae7be8c1834a9ed394c9314dd2b
+      internalID: 4087648921635513085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carnivorous plant_5
+      rect:
+        serializedVersion: 2
+        x: 2035
+        y: 11105
+        width: 2000
+        height: 2500
+      alignment: 9
+      pivot: {x: 0.37700194, y: 0.8804746}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b8b84a525cb5c74a9e51931477a15e9
+      internalID: -6467504944299435610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carnivorous plant_7
+      rect:
+        serializedVersion: 2
+        x: 5819
+        y: 11143
+        width: 2000
+        height: 2500
+      alignment: 9
+      pivot: {x: 0.50820017, y: 0.847675}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 861b716e48e9f1148ac8ef320bad3970
+      internalID: 2722099247766233651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

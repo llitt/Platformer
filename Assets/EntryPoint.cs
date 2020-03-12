@@ -6,7 +6,7 @@ public class EntryPoint : MonoBehaviour
 {
    public GameObject cam,player;
    private bool countdown = false;
-   private int timebeforecontrol=1;
+   private int timebeforecontrol=1,direction=1;//1 for right -1 for left
    private float timer=0;
     void Start()
     {
@@ -33,7 +33,7 @@ public class EntryPoint : MonoBehaviour
          countdown = true;
       }
       else {
-         
+         player.GetComponent<Player>().entraccedirection = direction;
          player.GetComponent<Player>().entryexitmode = true;
          cam.transform.parent = null;
       }
