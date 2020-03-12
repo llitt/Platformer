@@ -1,0 +1,511 @@
+fileFormatVersion: 2
+guid: 2331b20b2edc15746a6a9563483ef241
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3594551520532859910
+    second: Cult Boss Sprite Sheet_0
+  - first:
+      213: 6798552236668602159
+    second: Cult Boss Sprite Sheet_1
+  - first:
+      213: -7200640479172321479
+    second: Cult Boss Sprite Sheet_2
+  - first:
+      213: 5956750114193048992
+    second: Cult Boss Sprite Sheet_3
+  - first:
+      213: 8563991347190078670
+    second: Cult Boss Sprite Sheet_4
+  - first:
+      213: -6679875435757373829
+    second: Cult Boss Sprite Sheet_5
+  - first:
+      213: -1782074200200300104
+    second: Cult Boss Sprite Sheet_6
+  - first:
+      213: -3924645888652508488
+    second: Cult Boss Sprite Sheet_7
+  - first:
+      213: 7826151629842326208
+    second: Cult Boss Sprite Sheet_8
+  - first:
+      213: 6125139709695498943
+    second: Cult Boss Sprite Sheet_9
+  - first:
+      213: -4476557246331392709
+    second: Cult Boss Sprite Sheet_10
+  - first:
+      213: 5063885791969683012
+    second: Cult Boss Sprite Sheet_11
+  - first:
+      213: -2927263606001380017
+    second: Cult Boss Sprite Sheet_12
+  - first:
+      213: 8568420872354816789
+    second: Cult Boss Sprite Sheet_13
+  - first:
+      213: -7864100828879617862
+    second: Cult Boss Sprite Sheet_14
+  - first:
+      213: -4933013025840171459
+    second: Cult Boss Sprite Sheet_15
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Cult Boss Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 2166
+        width: 501
+        height: 1119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acc18e043f50f124e94b8ac1a4af5c12
+      internalID: 3594551520532859910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cult Boss Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 2162
+        width: 550
+        height: 1078
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feee5bc0eca6ef4478a8945c3c699208
+      internalID: 6798552236668602159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cult Boss Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 2162
+        width: 592
+        height: 1013
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a046cb74cf481b46b31e15c6bc5727e
+      internalID: -7200640479172321479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cult Boss Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 2548
+        y: 2166
+        width: 643
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82576008c73d35a43aeec9a509cebc4f
+      internalID: 5956750114193048992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cult Boss Sprite Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 3408
+        y: 2169
+        width: 717
+        height: 864
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bea686732a4cf24a8e4ab37825dcb76
+      internalID: 8563991347190078670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cult Boss Sprite Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 4387
+        y: 2169
+        width: 641
+        height: 941
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbbfbc81bf52d1043a5c02db975b2b74
+      internalID: -6679875435757373829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cult Boss Sprite Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 5241
+        y: 2130
+        width: 592
+        height: 1015
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0330183d1f0368045ad78b60c5cff2ed
+      internalID: -1782074200200300104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cult Boss Sprite Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 6008
+        y: 2130
+        width: 546
+        height: 1077
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfd5a6f28357e314bb639edd3bf866c4
+      internalID: -3924645888652508488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cult Boss Sprite Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 406
+        width: 550
+        height: 1077
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41227b34f10663d4a9175961b9bf3520
+      internalID: 7826151629842326208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cult Boss Sprite Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 406
+        width: 594
+        height: 1012
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5444dd02b6d605f40a57472ebedc5dcb
+      internalID: 6125139709695498943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cult Boss Sprite Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1580
+        y: 445
+        width: 640
+        height: 941
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9895b1b010f3a5c488414aac7d0bbadc
+      internalID: -4476557246331392709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cult Boss Sprite Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 2486
+        y: 442
+        width: 714
+        height: 866
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7653d73e874568e4a89b3e612a08984f
+      internalID: 5063885791969683012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cult Boss Sprite Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 3420
+        y: 442
+        width: 641
+        height: 943
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4eded983843af5488179851bedb4be8
+      internalID: -2927263606001380017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cult Boss Sprite Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 4358
+        y: 438
+        width: 592
+        height: 1013
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 188e3d5aba6ded9439c88c3d9213c7f8
+      internalID: 8568420872354816789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cult Boss Sprite Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 5199
+        y: 438
+        width: 547
+        height: 1077
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1525279edeeb304b95345602b1255bc
+      internalID: -7864100828879617862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cult Boss Sprite Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 6008
+        y: 442
+        width: 501
+        height: 1119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06c11cc1f4c9eca4986acaeaf15d8100
+      internalID: -4933013025840171459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 02bd292c50ac44b48bfa31f47879ac31
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
