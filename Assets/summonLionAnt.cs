@@ -36,8 +36,9 @@ public class summonLionAnt : MonoBehaviour
         lionAnt.SetActive(true);
         yield return new WaitForSeconds(2);
         boss.GetComponent<SpriteRenderer>().enabled = false;
+        boss.SetActive(false);
         yield return new WaitForSeconds(2);
-
+        lionAnt.SetActive(false);
         tempCamera.transform.position = currCameraPosition;
         tempCamera.GetComponent<WidthMatch>().sceneheight = 40;
         GetComponent<Rigidbody>().isKinematic = false;
