@@ -19,7 +19,7 @@ public class Bee : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-      
+      transform.LookAt(new Vector3(transform.position.x, transform.position.y, goal.z));
       if (keepylevel)
       {
          goal = new Vector3(goal.x, y, goal.z);
