@@ -6,6 +6,7 @@ public class LevelManager : MonoBehaviour
 {
    public static LevelManager LM;
    public int timestage = 1;
+   public int musicid = 0;
    public Vector3 respawnpoint;
     // Start is called before the first frame update
     void Start()
@@ -13,6 +14,7 @@ public class LevelManager : MonoBehaviour
       LM = this;
       Physics.IgnoreLayerCollision(8, 9);
       Physics.IgnoreLayerCollision(8, 10);
+      MusicHandler.MH.musicid = musicid;
    }
 
     // Update is called once per frame

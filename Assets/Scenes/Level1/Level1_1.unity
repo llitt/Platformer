@@ -14564,7 +14564,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1751838839}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -71970,6 +71970,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timestage: 0
+  musicid: 0
   respawnpoint: {x: 0, y: 3.2, z: -17}
 --- !u!1 &7021299201398902125
 GameObject:
