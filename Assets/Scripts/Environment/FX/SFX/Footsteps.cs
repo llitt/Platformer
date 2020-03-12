@@ -18,7 +18,7 @@ public class Footsteps : MonoBehaviour
    // Update is called once per frame
    void Update()
    {
-      if (chara.grounded && (Input.GetAxis("Horizontal") != 0) && gameObject.GetComponent<AudioSource>().isPlaying == false)
+      if (chara.grounded && ((Input.GetAxis("Horizontal") != 0)|chara.entryexitmode==true) && gameObject.GetComponent<AudioSource>().isPlaying == false)
       {
          if (LevelManager.LM.timestage == 2)
          {
