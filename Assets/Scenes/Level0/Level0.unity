@@ -72988,6 +72988,7 @@ MonoBehaviour:
   storyScreen: {fileID: 1378662870}
   controlScreen: {fileID: 1131090749}
   snow: {fileID: 1145480319}
+  footsteps: {fileID: 501764614}
   excludeBackground: {fileID: 1234801617}
 --- !u!4 &1114106234
 Transform:

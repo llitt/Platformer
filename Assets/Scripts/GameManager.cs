@@ -8,12 +8,14 @@ public class GameManager : MonoBehaviour
     public GameObject storyScreen;
     public GameObject controlScreen;
     public GameObject snow;
-    public GameObject excludeBackground;
+   public GameObject footsteps;
+   public GameObject excludeBackground;
     // Start is called before the first frame update
     void Start()
     {
         GetComponent<AudioSource>().Play();
         snow.GetComponent<AudioSource>().Stop();
+      footsteps.GetComponent<AudioSource>().volume=0;
       Time.timeScale = .001f;
     }
 
@@ -24,7 +26,8 @@ public class GameManager : MonoBehaviour
     }
 
     public void startGame() {
-        titleScreen.gameObject.SetActive(false);
+      footsteps.GetComponent<AudioSource>().volume = 1;
+      titleScreen.gameObject.SetActive(false);
         GetComponent<AudioSource>().Stop();
         snow.GetComponent<AudioSource>().Play();
         Time.timeScale = 1f;
