@@ -16,6 +16,8 @@ public class SlidingPyramid : MonoBehaviour
     public GameObject player;
     private bool triggered = false;
     public GameObject tempCamera;
+
+    public GameObject boss;
     void Start()
     {
         player = GameObject.Find("Player");
@@ -40,9 +42,9 @@ public class SlidingPyramid : MonoBehaviour
     IEnumerator startAnim()
     {
         Vector3 currCameraPosition = tempCamera.transform.position;
-        tempCamera.transform.position = currCameraPosition + new Vector3(100f, 0, 100.3f);
+        tempCamera.transform.position = currCameraPosition + new Vector3(100f, 30.0f, 100.3f);
         float currSceneHeight = tempCamera.GetComponent<WidthMatch>().sceneheight;
-        tempCamera.GetComponent<WidthMatch>().sceneheight = 220;
+        tempCamera.GetComponent<WidthMatch>().sceneheight = 100;
         player.GetComponent<Rigidbody>().isKinematic = true;
 
         
@@ -66,8 +68,15 @@ public class SlidingPyramid : MonoBehaviour
 
         yield return new WaitForSeconds(2);
 
+        tempCamera.transform.position += new Vector3(0, 0, 200.3f);
+        yield return new WaitForSeconds(1);
+        boss.SetActive(true);
+
+        yield return new WaitForSeconds(2);
+
         tempCamera.transform.position = currCameraPosition;
-        tempCamera.GetComponent<WidthMatch>().sceneheight = 70;
+        tempCamera.GetComponent<WidthMatch>().sceneheight = 40;
         player.GetComponent<Rigidbody>().isKinematic = false;
+
     }
 }

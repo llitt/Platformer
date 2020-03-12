@@ -25,10 +25,12 @@ public class leftRightInsects : MonoBehaviour
     {
       rb.velocity = Vector3.forward * speed* right;
       if (rb.position.z >= (pos.z + width)) {
+         GetComponent<SpriteRenderer>().flipX = true;  
          right = -1;
       }
       if (rb.position.z <= (pos.z))
       {
+         GetComponent<SpriteRenderer>().flipX = false; 
          right = 1;
       }
 

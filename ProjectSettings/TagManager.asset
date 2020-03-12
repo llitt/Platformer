@@ -10,6 +10,7 @@ TagManager:
   - Mirror
   - Ground
   - Insects
+  - triggerEnd
   layers:
   - Default
   - TransparentFX
