@@ -26,6 +26,9 @@ TextureImporter:
   - first:
       213: 8538124122269751908
     second: lion ant_7
+  - first:
+      213: 5752761260686282971
+    second: lion ant_8
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -117,8 +120,8 @@ TextureImporter:
         y: 3497
         width: 1432
         height: 1001
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.49999997, y: 0.46256283}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -138,8 +141,8 @@ TextureImporter:
         y: 3497
         width: 1296
         height: 1067
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.49999982, y: 0.4231497}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -159,8 +162,8 @@ TextureImporter:
         y: 3497
         width: 1184
         height: 1104
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5079123, y: 0.40665358}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -180,8 +183,8 @@ TextureImporter:
         y: 1952
         width: 1005
         height: 1130
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.40051076}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -197,12 +200,12 @@ TextureImporter:
       name: lion ant_4
       rect:
         serializedVersion: 2
-        x: 2145
+        x: 2136
         y: 1952
         width: 823
         height: 1101
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4234177}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -222,8 +225,8 @@ TextureImporter:
         y: 1952
         width: 1006
         height: 1130
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.50931275, y: 0.40880138}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -243,8 +246,8 @@ TextureImporter:
         y: 320
         width: 1181
         height: 1102
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.49999994, y: 0.41498578}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -264,8 +267,8 @@ TextureImporter:
         y: 338
         width: 1299
         height: 1067
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5000002, y: 0.42097777}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -273,6 +276,27 @@ TextureImporter:
       bones: []
       spriteID: 5a23b56684f75644d8bd33fbbe9408c8
       internalID: 8538124122269751908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lion ant_8
+      rect:
+        serializedVersion: 2
+        x: 2439
+        y: 1936
+        width: 1134
+        height: 1433
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd176a3d60a910d4db3511ff3a03a592
+      internalID: 5752761260686282971
       vertices: []
       indices: 
       edges: []
