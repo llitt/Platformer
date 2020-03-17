@@ -13751,7 +13751,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e743444c6dc269c4bb1dc0be36d0cc12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slickness: 0.01
+  slickness: 0.03
 --- !u!65 &137246584
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -61395,7 +61395,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e743444c6dc269c4bb1dc0be36d0cc12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slickness: 0.005
+  slickness: 0.03
 --- !u!65 &901698131
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -93124,7 +93124,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e743444c6dc269c4bb1dc0be36d0cc12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slickness: 0.01
+  slickness: 0.03
 --- !u!65 &1564359911
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -96814,7 +96814,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e743444c6dc269c4bb1dc0be36d0cc12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slickness: 0.01
+  slickness: 0.03
 --- !u!65 &1646719921
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -103302,7 +103302,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e743444c6dc269c4bb1dc0be36d0cc12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slickness: 0.005
+  slickness: 0.03
 --- !u!65 &1694296362
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -115705,7 +115705,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e743444c6dc269c4bb1dc0be36d0cc12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slickness: 0.005
+  slickness: 0.03
 --- !u!65 &1784622173
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -133586,7 +133586,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e743444c6dc269c4bb1dc0be36d0cc12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slickness: 0.01
+  slickness: 0.03
 --- !u!65 &2071038683
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -134013,7 +134013,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e743444c6dc269c4bb1dc0be36d0cc12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slickness: 0.005
+  slickness: 0.03
 --- !u!65 &2081999551
 BoxCollider:
   m_ObjectHideFlags: 0
