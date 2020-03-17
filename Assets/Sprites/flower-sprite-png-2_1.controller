@@ -8,7 +8,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: grow 1
-  m_Speed: 24
+  m_Speed: 100000
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: -3774192658217208872}
@@ -36,7 +36,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: grow
-  m_Speed: -24
+  m_Speed: -10000
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 4029057883528097826}
