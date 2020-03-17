@@ -14,6 +14,7 @@ public class UpDownInsects : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+      Physics.IgnoreLayerCollision(11, 12);
       rb = GetComponent<Rigidbody>();
       pos = rb.position;
       mustHave = GameObject.Find("MUSTPUTINEVERYSCENE");
