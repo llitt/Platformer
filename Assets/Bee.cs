@@ -41,10 +41,10 @@ public class Bee : MonoBehaviour
       }
       else if (Vector3.Distance(transform.position, goal) < mindistance * 10)
       {
-         transform.position = Vector3.Lerp(transform.position, goal, speed*10);
+         transform.position = Vector3.Lerp(transform.position, goal, speed*10*Time.deltaTime);
       }
       else
-         transform.position = Vector3.Lerp(transform.position, goal, speed);
+         transform.position = Vector3.Lerp(transform.position, goal, speed*Time.deltaTime);
    }
    private void OnCollisionEnter(Collision collision)
    {

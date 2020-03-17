@@ -14606,7 +14606,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   goal: {x: 0, y: 0, z: 0}
-  speed: 0.04
+  speed: 10
   mindistance: 0.4
   timetowait: 2
   keepylevel: 0
