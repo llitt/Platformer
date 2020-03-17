@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Collectable : MonoBehaviour
 {
-   public bool collected = false;
+   public bool collected = false,addtoQT=false;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,6 +19,9 @@ public class Collectable : MonoBehaviour
    private void OnTriggerEnter(Collider other)
    {
       collected = true;
+      if (addtoQT) {
+         Quest_Tracker.qT.numofQuestsCompleted++;
+      }
       gameObject.SetActive(false);
    }
 }

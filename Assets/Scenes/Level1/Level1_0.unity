@@ -26894,6 +26894,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collected: 0
+  addtoQT: 1
 --- !u!65 &1660467635
 BoxCollider:
   m_ObjectHideFlags: 0

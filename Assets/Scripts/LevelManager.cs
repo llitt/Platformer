@@ -14,7 +14,7 @@ public class LevelManager : MonoBehaviour
       LM = this;
       Physics.IgnoreLayerCollision(8, 9);
       Physics.IgnoreLayerCollision(8, 10);
-      MusicHandler.MH.musicid = musicid;
+      //MusicHandler.MH.musicid = musicid;
    }
 
     // Update is called once per frame
