@@ -27659,7 +27659,7 @@ PrefabInstance:
     - target: {fileID: 1534532095095024338, guid: 8167cdb3773a7844f8c689befb8fde45,
         type: 3}
       propertyPath: forcemult
-      value: 1000
+      value: 100000
       objectReference: {fileID: 0}
     - target: {fileID: 1534532095095024339, guid: 8167cdb3773a7844f8c689befb8fde45,
         type: 3}
@@ -29250,7 +29250,7 @@ PrefabInstance:
     - target: {fileID: 1534532095095024338, guid: 8167cdb3773a7844f8c689befb8fde45,
         type: 3}
       propertyPath: forcemult
-      value: 5000
+      value: 400000
       objectReference: {fileID: 0}
     - target: {fileID: 1534532095095024339, guid: 8167cdb3773a7844f8c689befb8fde45,
         type: 3}
@@ -31485,6 +31485,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wind
+      objectReference: {fileID: 0}
+    - target: {fileID: 1534532095095024338, guid: 8167cdb3773a7844f8c689befb8fde45,
+        type: 3}
+      propertyPath: forcemult
+      value: 1500
       objectReference: {fileID: 0}
     - target: {fileID: 1534532095095024339, guid: 8167cdb3773a7844f8c689befb8fde45,
         type: 3}
