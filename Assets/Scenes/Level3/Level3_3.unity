@@ -27654,7 +27654,7 @@ PrefabInstance:
     - target: {fileID: 1534532095095024338, guid: 8167cdb3773a7844f8c689befb8fde45,
         type: 3}
       propertyPath: direction.z
-      value: -1
+      value: -3000
       objectReference: {fileID: 0}
     - target: {fileID: 1534532095095024338, guid: 8167cdb3773a7844f8c689befb8fde45,
         type: 3}
@@ -29245,7 +29245,7 @@ PrefabInstance:
     - target: {fileID: 1534532095095024338, guid: 8167cdb3773a7844f8c689befb8fde45,
         type: 3}
       propertyPath: direction.z
-      value: -1
+      value: -6000
       objectReference: {fileID: 0}
     - target: {fileID: 1534532095095024338, guid: 8167cdb3773a7844f8c689befb8fde45,
         type: 3}
@@ -31490,6 +31490,11 @@ PrefabInstance:
         type: 3}
       propertyPath: forcemult
       value: 1500
+      objectReference: {fileID: 0}
+    - target: {fileID: 1534532095095024338, guid: 8167cdb3773a7844f8c689befb8fde45,
+        type: 3}
+      propertyPath: direction.y
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 1534532095095024339, guid: 8167cdb3773a7844f8c689befb8fde45,
         type: 3}
