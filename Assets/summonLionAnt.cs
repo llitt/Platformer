@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class summonLionAnt : MonoBehaviour
 {
-    // Start is called before the first frame update
+   // Start is called before the first frame update
+   public GameObject winscreen;
     public bool key1 = false;
     public bool key2 = false;
     public bool key3 = false;
@@ -42,6 +43,7 @@ public class summonLionAnt : MonoBehaviour
         tempCamera.transform.position = currCameraPosition;
         tempCamera.GetComponent<WidthMatch>().sceneheight = 40;
         GetComponent<Rigidbody>().isKinematic = false;
+      winscreen.SetActive(true);
     }
 
     void OnTriggerEnter(Collider hit)
