@@ -5,6 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class WinScreen : MonoBehaviour
 {
+   private void Awake()
+   {
+      Cursor.visible = true;
+      Cursor.lockState = CursorLockMode.None;
+   }
    // Start is called before the first frame update
    public void LoadBonusLevel() {
       SceneManager.LoadScene(22);

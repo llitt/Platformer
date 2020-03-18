@@ -20,7 +20,7 @@ public class Wind : MonoBehaviour
    {
       if (timer > timebeforeffect)
       {
-         Player.player.GetComponent<Rigidbody>().velocity += direction * Time.deltaTime;
+         Player.player.GetComponent<Rigidbody>().velocity = new Vector3(0, direction.y*Time.deltaTime + Player.player.GetComponent<Rigidbody>().velocity.y, direction.z * Time.deltaTime + Player.player.GetComponent<Rigidbody>().velocity.z);
       }
    }
    private void OnTriggerStay(Collider other)
@@ -30,6 +30,7 @@ public class Wind : MonoBehaviour
    private void OnTriggerExit(Collider other)
    {
       fly = false;
+      other.GetComponent<Rigidbody>().velocity = Vector3.zero;
       timer = 0;
    }
 }
